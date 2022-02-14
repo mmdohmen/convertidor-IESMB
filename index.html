@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConDiv</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1 id="titulo">Conversor de divisas</h1>
+    <button class="fondo" id="botonFondo" onclick=fondo()>CAMBIAR color</button>
+    
+    <!-- formulario de conversion de divisas -->
+    <div>
+        <article>
+            <h3>☝ ingrese SOLO una moneda ...</h3>
+            <form name="formulario">
+                <table>
+                    <tr>
+                        <td><img src="eeuu.jpg" alt="eeuu.jpg">Dolares</td>
+                        <td><input type="number" name="dolares" id=""></td>
+                        <td><img src="europa.jpg" alt="europa.jpg">Euros</td>
+                        <td><input type="number" name="euros" id=""></td>
+                    </tr>
+                    <tr>
+                        <td><img src="chile.jpg" alt="chile.jpg">Pesos</td>
+                        <td><input type="number" name="chilenos" id=""></td>
+                        <td><img src="brasil.jpg" alt="brasil.jpg">Reales</td>
+                        <td><input type="number" name="reales" id=""></td>
+                    </tr>
+                    <tr>
+                        <td><img src="argentina.jpg" alt="argentina.jpg">Pesos</td>
+                        <td><input type="number" name="pesos" id=""></td>
+                        <td align="right">valores a:</td>
+                        <td><input type="text" name="fecha" id="" placeholder="" disabled></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><input type="checkbox" name="impPais" id="impPais">Impuesto Pais 30%</td>
+                        <td><input type="button" value="Calcular" onclick="calcular()"></td>
+
+                    </tr>
+                    <tr>
+                        <td colspan="3"><input type="checkbox" name="retencion" id="retencion">Retencion 35%</td>
+                        <td><button type="reset" onclick="habilitar()">Limpiar</button></td>
+                    </tr>
+                </table>
+            </form>
+        </article>
+        <br> 
+        <!-- cuadro con un mapa de google maps-->
+        <h3>Casas de Cambio en Mendoza</h3>
+        <article>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3350.331924649714!2d-68.83957481446934!3d-32.88939133235758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scasas%20de%20cambio%20en%20mendoza!5e0!3m2!1ses!2sar!4v1642517716392!5m2!1ses!2sar" width="100%" height="245em" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </article>
+    </div>
+
+    <!-- publicidad --------------------------------------------------------------------------------------------------->
+    <div>
+        <aside>
+            <a href="https://www.montemar.com.ar/" target="_blank"><img src="Montemar.jpg" alt="MONTEMAR" width="100%" height=""></a>
+            <p></p>
+            <a href="http://www.cambiosantiago.com.ar/" target="_blank"><img src="cambioSantiago.jpg" alt="cambio SANTIAGO" width="100%" height=""></a>
+        </aside>
+    </div>
+
+    <br>
+
+    <!-- footer -->
+    <footer>Zeta Co. <i onmouseover="alert('Zeta Co. \n261 722 5526 \nmmdohmen@hotmail.com')">(contact us)</i></footer>
+
+</body>
+
+</html>

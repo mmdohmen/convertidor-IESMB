@@ -1,0 +1,54 @@
+body{
+    position:fixed;
+    margin:0%;
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fondo{
+    position:fixed;
+    top: 3%;
+    right: 2%;
+}
+
+h1 {
+    position:center;
+    margin:1%;
+    color: white;
+    background-color: green;
+    text-align: center;
+}
+
+div{
+    display:inline-block;
+    margin:1%;
+    vertical-align: top;
+    align-self: center;
+    width:45%;
+    height: 50%;
+}
+
+h3 {
+    margin:0%;
+    color: white;
+    background-color: green;
+    text-align: center;
+}
+
+table {
+    background-color: lightgreen;
+    width:100%;
+}
+
+
+form {
+    align-self: center;
+}
+
+footer {
+    margin:1%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
